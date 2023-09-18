@@ -1,0 +1,11 @@
+#contactSection {
+  padding: 40px 0;
+}
+
+#contactForm .form-group label {
+  font-weight: bold;
+}
+
+#contactForm .btn-primary {
+  width: 100%;
+}

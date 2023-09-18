@@ -1,0 +1,66 @@
+  /* Estilos personalizados */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #f8f9fa;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        .jumbotron {
+            background-color: #ffffff;
+            padding: 100px 0;
+        }
+
+        .jumbotron h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .jumbotron p {
+            font-size: 24px;
+        }
+
+        .card {
+            margin-bottom: 30px;
+        }
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            background-color: #f8f9fa;
+        }
+
+        .benefits {
+            margin-bottom: 30px;
+        }
+
+        .benefits h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .benefits p {
+            font-size: 18px;
+        }
+
+        .benefits .row {
+            align-items: center;
+        }
+
+        .benefits .col-md-4 {
+            text-align: center;
+        }
+
+        .benefits .col-md-4 img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }

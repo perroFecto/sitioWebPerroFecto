@@ -1,0 +1,72 @@
+  /* Estilos personalizados inicio*/
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: #f8f9fa;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .jumbotron {
+    background-image: url('../img/pagInicio/fondo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #012d09f8;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  .jumbotron p {
+    font-size: 24px;
+  }
+  .btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+  }
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+  }
+  footer p {
+    margin-bottom: 0;
+  }
+
+  .custom-background {
+    background-color: rgba(255, 255, 255, 0.431);
+  }
+  
+  .custom-background h1,
+  .custom-background p {
+    color: #000000;
+  }
+  
+ 
+
+   /* Estilos personalizados a cerca de nosotros*/
+  
+  .jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  .jumbotron p {
+    font-size: 24px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  .card-body {
+    background-color: #f8f9fa;
+  }
+  
