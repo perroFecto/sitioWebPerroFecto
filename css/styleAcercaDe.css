@@ -1,52 +1,69 @@
- /* Estilos personalizados */
- body {
-  font-family: Arial, sans-serif;
+/* Estilos para la página acerca de */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f4ed;
+  color: #031202e0;
 }
+
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #90be6d;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
 }
-.navbar-brand {
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #222;
+}
+
+.nav-link.active {
   font-weight: bold;
 }
-.jumbotron {
-  background-color: #ffffff;
-  padding: 100px 0;
+
+#contactSection {
+  padding: 2rem 0;
 }
-.jumbotron h1 {
-  font-size: 48px;
-  margin-bottom: 30px;
+
+#contactSection h2 {
+  color: #222;
+  margin-bottom: 1rem;
 }
-.jumbotron p {
-  font-size: 24px;
-}
+
 .card {
-  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
 }
-.card-img-top {
-  height: 300px;
-  object-fit: cover;
-}
+
 .card-body {
-  background-color: #f8f9fa;
+  background-color: #eff6ea;
 }
-.benefits {
-  margin-bottom: 30px;
+
+.form-control,
+.btn {
+  border-radius: 0;
 }
-.benefits h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+
+.btn {
+  background-color: #90be6d;
+  color: #fff;
 }
-.benefits p {
-  font-size: 18px;
+
+footer {
+  background-color: #90be6d;
+  color: #fff;
 }
-.benefits .row {
-  align-items: center;
+
+.logo {
+  display: block;
+  height: 10%;
+  max-width: 20%;
 }
-.benefits .col-md-4 {
-  text-align: center;
-}
-.benefits .col-md-4 img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+
+.no-space {
+  margin: 0;
+  padding: 0;  
 }

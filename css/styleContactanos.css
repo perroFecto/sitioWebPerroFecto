@@ -9,3 +9,75 @@
 #contactForm .btn-primary {
   width: 100%;
 }
+.logo {
+  display: block;
+  height: 10%;
+  max-width: 20%;
+}
+
+/*style verde*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f4ed;
+  color: #031202e0;
+}
+
+.navbar {
+  background-color: #90be6d;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #222;
+}
+
+.nav-link.active {
+  color: #222;
+  font-weight: bold;
+}
+
+#contactSection {
+  padding: 2rem 0;
+}
+
+#contactSection h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
+}
+
+
+.card-body {
+  background-color: #eff6ea;
+}
+
+.form-control,
+.btn {
+  border-radius: 0;
+}
+
+.btn {
+  background-color: #90be6d;
+  color: #fff;
+}
+
+footer {
+  background-color: #90be6d;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.logo {
+  display: block;
+  height: 10%;
+  max-width: 20%;
+}

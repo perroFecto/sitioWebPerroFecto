@@ -1,0 +1,128 @@
+/* Estilos para la página acerca de */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f4ed;
+  color: #031202e0;
+}
+
+.navbar {
+  background-color: #90be6d;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #222;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Estilo para el botón activo de navegación */
+.nav-item .active {
+  color: #f57c00;
+}
+.logo {
+  height: 100%;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+.logo {
+  display: block;
+  height: 10%;
+  max-width: 20%;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
+}
+
+.card-body {
+  background-color: #eff6ea;
+}
+
+.form-control,
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary-custom {
+  background-color: #f9c74f;
+  border: none;
+  border-radius: 20px;
+  color: #222;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-primary-custom:hover {
+  background-color: #90be6d;
+  color: #fff;
+}
+
+.btn-primary-custom::before {
+  background-color: #222;
+  border-radius: 50%;
+  content: "";
+  height: 100%;
+  left: -10px;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  transform: scale(0);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.btn-primary-custom:hover::before {
+  transform: scale(1);
+}
+
+
+.no-space {
+  margin: 0;
+  padding: 0;  
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+
+  .jumbotron {
+    background-color: #f9c74f;
+    color: #222;
+  }
+
+  .btn-primary {
+    background-color: #90be6d;
+    border-color: #90be6d;
+  }
+
+  footer {
+    background-color: #90be6d;
+    color: #fff;
+  }
+  
+
+ 
