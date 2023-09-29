@@ -68,7 +68,23 @@
     height: 300px;
     object-fit: cover;
   }
-
+/* estilo carrousel*/
+  .carousel-card {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .carousel-container {
+    width: 100%;
+  }
+  .card-title{
+    text-align: center;
+  }
+  .col-lg-6  p{
+    text-align: justify;
+  }
+  
+  
    /*estilos tarjetas servicios*/
   .card {
     border: none;
