@@ -114,7 +114,7 @@
   .card {
     border: none;
     box-shadow: 0 4px 6px rgba(225, 181, 4, 0.778);
-    height: 600px;
+    height: auto;
     margin-bottom: 20px;
     flex-basis: calc(33.33% - 20px);
   }
