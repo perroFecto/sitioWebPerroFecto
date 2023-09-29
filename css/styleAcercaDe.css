@@ -15,10 +15,7 @@ body {
   color: #fff;
 }
 
-.nav-link:hover,
-.nav-link.active {
-  color: #222;
-}
+
 
 .nav-link.active {
   font-weight: bold;
@@ -55,12 +52,6 @@ body {
 footer {
   background-color: #90be6d;
   color: #fff;
-}
-
-.logo {
-  display: block;
-  height: 10%;
-  max-width: 20%;
 }
 
 .no-space {

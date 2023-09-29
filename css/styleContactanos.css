@@ -9,11 +9,7 @@
 #contactForm .btn-primary {
   width: 100%;
 }
-.logo {
-  display: block;
-  height: 10%;
-  max-width: 20%;
-}
+
 
 /*style verde*/
 body {
@@ -76,8 +72,4 @@ footer {
   padding: 1rem 0;
   margin-top: 2rem;
 }
-.logo {
-  display: block;
-  height: 10%;
-  max-width: 20%;
-}
+
